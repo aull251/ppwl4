@@ -29,7 +29,7 @@ const app = new Elysia()
     };
 }, {
     params: t.Object({
-        id: t.Numeric() // Menggunakan t.Numeric agar string dari URL otomatis jadi number
+        id: t.Numeric() 
     }),
     query: t.Object({
         sort: t.Enum({
